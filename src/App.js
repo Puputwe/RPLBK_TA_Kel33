@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import Home from "./home";
 import CardNews from "./component/CardNews"
 
+
 function App() {
   const [user, setUser] = useState("");
   const [DarkTheme, setTheme] = useState(false);
@@ -70,10 +71,11 @@ function App() {
       }
     }
   return (
+    <div>
     <BrowserRouter>
       <header>
         <div className="title">
-         Kelompok 33
+         CompStore33
         </div>
         <nav>
           <Link className="text" to="/" >
@@ -117,10 +119,11 @@ function App() {
         <CardNews title="Promo 9.9 Harga Super MURAH"
           tglPost="1 September 2021"
           info="Cermati brosur kami ya dan bandingkan harganya, promo yang kami berikan benar benar termurah di Salatiga, 
-          tidak percaya ? Silakan datang langsung ke Sultan Copm Store di RUKO Pancasila No 8, atau kunjungi Olshop kami di Shoppe : SultanCompStore33 dan dapatkan Extra Cashback hingga 98%"
+          tidak percaya ? Silakan datang langsung ke Sultan Copm Store di RUKO Pancasila No 8, atau kunjungi Olshop kami di Shoppe : CompStore33 dan dapatkan Extra Cashback hingga 98%"
           author="Admin"/>}/>
       </Switch>
     </BrowserRouter>
+  </div>
   );
 }
 

@@ -10,6 +10,9 @@ import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import NumberFormat from 'react-number-format';
+import AppBar from "@material-ui/core/AppBar";
+import Container from "@material-ui/core/Container";
+import Toolbar from "@material-ui/core/Toolbar";
 import "./App.css";
 
 const styles = makeStyles((theme) => ({
@@ -96,6 +99,7 @@ export default function Context(props){
     }, []);
 
     return(
+        <div>
         <ThemeContext.Provider value={valueTheme}>
             <ReactModal isOpen={isModal}>
                 <div>
@@ -145,7 +149,7 @@ export default function Context(props){
                                 </table>
                               )
                                }})} 
-                            <Button color="primary" variant="contained" onClick={() => handleModal(datas)}>Open Modal</Button>
+                            <Button color="primary" variant="contained" onClick={() => handleModal(datas)}>Deskripsi</Button>
                         </CardContent>
                         </CardActionArea>
                         </Card>
@@ -158,6 +162,20 @@ export default function Context(props){
             </div>
         </div>
         </ThemeContext.Provider>
+        <footer>
+    <div>
+        <AppBar position="static" color="primary" >
+        <Container maxWidth="lg" >
+          <Toolbar justify-content="center">
+            <Typography variant="body1" color="inherit">
+              Kelompok 33 | Praktikum RPLBK ©2021
+            </Typography>
+          </Toolbar>
+        </Container>
+        </AppBar>
+        </div>
+  </footer>
+        </div>
     )
 }
 

@@ -1,6 +1,6 @@
 {
     "data":[
-        {"id":0, "nama":"Acer Predator Helios 300", "harga":"20000000", "midend":true, "isPriceBold":"False","image":"./assets/img/acerpredatorhelios300.png", 
+        {"id":0, "nama":"Acer Predator Helios", "harga":"20000000", "midend":true, "isPriceBold":"False","image":"./assets/img/acerpredatorhelios300.png", 
             "desc":{
                 "cpu":"Intel® Core™ i7-10750H",
                 "ram":"8 GB",
@@ -10,10 +10,22 @@
         "isads":"True"},
         {"id":1, "nama":"ASUS TUF F15", "harga":"19000000", "midend":true, "isPriceBold":"True", "image":"./assets/img/asustuff15.png", "desc":{
             "cpu":"Intel® Core™ i7-10750H",
-            "ram":"8 GB",
+            "ram":"16 GB",
             "vga":"NVIDIA® GeForce® GTX1650 with 4GB DDR6",
             "str":"512GB SSD NVMe "
         },"isads":"False"},
+        {"id":5, "nama":"Asus Vivobook S15", "harga":"11000000", "lowend":true,"isPriceBold":"True", "image":"./assets/img/asus1.png", "desc":{
+            "cpu":"Intel Core™ i7 7500U Processor (4M Cache, up to 3.5GHz)",
+            "ram":"16 GB",
+            "vga":"Nvidia GTX 940MX 2GB GDDR5 VRAM",
+            "str":"28GB SATA 3 M.2 SSD + 1TB HDD"
+        }, "isads":"False"},
+        {"id":7, "nama":"Dell XPS 15 9500", "harga":"24999000", "highend":true, "isPriceBold":"True", "image":"./assets/img/dell15.jpg", "desc":{
+            "cpu":"Intel 10th Gen Core i7 10750",
+            "ram":"16GB LPDDR4 RAM",
+            "vga":"NVIDIA GeForce® GTX1650Ti 4GB GDDR5",
+            "str":"512GB PCIe NVMe SSD"
+        }, "isads":"False"},
         {"id":2, "nama":"MSI GS76 Stealth", "harga":"50000000", "highend":true, "isPriceBold":"True", "image":"./assets/img/msigs76stealth.webp", "desc":{
             "cpu":"Intel® Core™ i7-11990H",
             "ram":"8 GB",
@@ -21,34 +33,22 @@
             "str":"512GB SSD NVMe "
         },"isads":"False"},
         {"id":3, "nama":"ROG Strix G15 G513", "harga":"16999000", "midend":true,"isPriceBold":"True", "image":"./assets/img/Laptop3.png", "desc":{
-            "cpu":"?",
-            "ram":"? GB",
-            "vga":"?",
-            "str":"?"
+            "cpu":" AMD Ryzen™ 7 4800H ",
+            "ram":"8 GB",
+            "vga":"NVIDIA® GeForce GTX™ 1650",
+            "str":"512GB M.2 NVMe™ PCIe® 3.0 SSD"
         }, "isads":"False"},
         {"id":4, "nama":"Lenovo Ideapad 320", "harga":"10555000", "lowend":true,"isPriceBold":"True", "image":"./assets/img/Laptop4.png", "desc":{
-            "cpu":"?",
-            "ram":"? GB",
-            "vga":"?",
-            "str":"?"
+            "cpu":"Intel i3-6006U dual-core 2GHz",
+            "ram":"4 GB",
+            "vga":"NVIDIA GeForce 920MX",
+            "str":"512GB M.2 NVMe"
         }, "isads":"False"},
-        {"id":5, "nama":"Asus Vivobook S15", "harga":"11000000", "lowend":true,"isPriceBold":"True", "image":"./assets/img/asuss15.png", "desc":{
-            "cpu":"?",
-            "ram":"? GB",
-            "vga":"?",
-            "str":"?"
-        }, "isads":"False"},
-        {"id":6, "nama":"Dell Inspiron GAMING 15 5575 RYZEN 5", "harga":"8499000", "lowend":true, "isPriceBold":"True", "image":"./assets/img/dellgame.png", "desc":{
-            "cpu":"?",
-            "ram":"? GB",
-            "vga":"?",
-            "str":"?"
-        }, "isads":"False"},
-        {"id":7, "nama":"Dell XPS 15 2-in-1", "harga":"20799000", "highend":true, "isPriceBold":"True", "image":"./assets/img/Laptop2.jpg", "desc":{
-            "cpu":"?",
-            "ram":"? GB",
-            "vga":"?",
-            "str":"?"
+        {"id":6, "nama":"Dell Inspiron GAMING 15", "harga":"8499000", "lowend":true, "isPriceBold":"True", "image":"./assets/img/dell2.jpg", "desc":{
+            "cpu":"AMD Ryzen 5 2500U with Radeon Vega8 Graphics",
+            "ram":"8 GB",
+            "vga":"-",
+            "str":"HDD 1TB"
         }, "isads":"False"}
     ]
 }
